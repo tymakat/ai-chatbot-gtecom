@@ -23,6 +23,8 @@ llm = ChatOpenAI(
 
 @tool
 def get_order_by_id(order_id: str) -> dict:
+    """Fetch an order by id from a provided csv table.
+    """
     return fetch_order_by_id(order_id)
 
 @tool
