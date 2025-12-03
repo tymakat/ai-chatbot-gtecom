@@ -1,0 +1,11 @@
+order_id,customer_name,email,status,tracking_url,total_amount,currency,country
+ORD-1001,Emma Thompson,emma.thompson@email.com,shipped,https://track.example.com/ORD-1001,89.99,USD,US
+ORD-1002,Lucas Martinez,lucas.m@email.com,processing,,249.00,USD,US
+ORD-1003,Sophie Chen,sophie.chen@email.com,delivered,https://track.example.com/ORD-1003,34.50,USD,US
+ORD-1004,James Wilson,j.wilson@email.com,shipped,https://track.example.com/ORD-1004,129.99,EUR,DE
+ORD-1005,Olivia Brown,olivia.b@email.com,cancelled,,450.00,USD,UK
+ORD-1006,Noah Garcia,noah.garcia@email.com,processing,,67.25,USD,US
+ORD-1007,Ava Patel,ava.patel@email.com,shipped,https://track.example.com/ORD-1007,312.00,GBP,UK
+ORD-1008,Liam Johnson,liam.j@email.com,delivered,https://track.example.com/ORD-1008,24.99,USD,CA
+ORD-1009,Isabella Kim,isabella.kim@email.com,refunded,,189.50,USD,US
+ORD-1010,Ethan Wright,ethan.w@email.com,shipped,https://track.example.com/ORD-1010,599.99,USD,US
