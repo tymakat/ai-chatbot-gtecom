@@ -20,9 +20,11 @@ st.markdown("#### Got any questions regarding your order? Our agent will happily
 #for logging purposes
 session_id = uuid.uuid4()
 
+#The conversation history will be stored there
 if "history" not in st.session_state:
     st.session_state.history = []  
 
+#Initalize a new model
 llm = ChatOpenAI(
     model="gpt-5",
     temperature=0.5,
@@ -59,12 +61,13 @@ for msg in st.session_state.history:
 
 if user_input:
     try:
-    #Add error logging for messages? 
+        #Register user's message
         st.session_state.history.append({"role": "user", "content": user_input})
         log_message(role="user", message=user_input, session_id=session_id, is_error=False)
         with st.chat_message("assistant"):
             #Using asyncio, since the generated API key can only be used with asynchronous operations
             response = asyncio.run(generate_response(user_input))
+            #Return latest message from the model
             latest_ai_message = response["messages"][-1].content
             st.write(latest_ai_message)
             

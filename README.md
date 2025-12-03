@@ -12,6 +12,7 @@ This document will provide you with detailed instructions on how to setup and la
 ### Prerequisites
 
 0. **IMPORTANT! Install Python version between 3.9 and 3.12**
+
 Although the newest Python version is 3.14, some libraries used in this project did not update their wheels to Python 3.14 yet. Installing Python 3.11 or 3.12 is strongly reccomended
 
 1. **Install required python dependencies**
@@ -68,7 +69,7 @@ There are multiple issues to be aware of that should be fixed if the work on thi
 
 2. No specific versions of libraries in the `requirements.txt`. Due to the limited deadline, specific versions for the third-party libraries were not provided. This can cause problems in the distant future.
 
-3. It's hard to distinguish messages in logs, especially when dealing with large text messages
+3. It's hard to distinguish messages in logs, especially when dealing with large text messages.
 
 4. The message history is updated with a brief delay.
 
