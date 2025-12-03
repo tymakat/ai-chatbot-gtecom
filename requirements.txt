@@ -2,5 +2,6 @@ langchain
 pandas
 streamlit
 pytest
-langchain
+langchain-openai
 openai
+asyncio

@@ -11,6 +11,9 @@ This document will provide you with detailed instructions on how to setup and la
 
 ### Prerequisites
 
+0. **Install Python 3.14 or above**
+You should be able to use pip to install dependencies and run commands
+
 1. **Install required python dependencies**
 
 Navigate to the root folder of the repository (where `.git` is located) and run:
