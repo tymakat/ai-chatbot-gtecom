@@ -11,8 +11,8 @@ This document will provide you with detailed instructions on how to setup and la
 
 ### Prerequisites
 
-0. **Install Python 3.14 or above**
-You should be able to use pip to install dependencies and run commands
+0. **IMPORTANT! Install Python version between 3.9 and 3.12**
+Although the newest Python version is 3.14, some libraries used in this project did not update their wheels to Python 3.14 yet. Installing Python 3.11 or 3.12 is strongly reccomended
 
 1. **Install required python dependencies**
 
