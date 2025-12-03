@@ -1,10 +1,16 @@
 from dotenv import load_dotenv
 import os
 
+
+#file for storing constant variables like open api key and system prompts
+
+
 # Load .env file from current directory
 load_dotenv()
-#file for storing constant variables like open api key and system prompts
+
 OPEN_AI_APIKEY = os.environ.get("OPEN_AI_APIKEY")
+LOG_PATH = "implementation/logs/logs.txt"
+DATASET_PATH = "order_information/orders.csv"
 
 SYSTEM_PROMPT = """
 INSTRUCTIONS START

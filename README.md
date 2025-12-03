@@ -65,3 +65,6 @@ There are multiple issues to be aware of that should be fixed if the work on thi
 1. Currently the project can only be tested from the root folder of the repository. A better implementation would be to implement logic for fetching the path to the project's root folder at runtime.
 
 2. No specific versions of libraries in the `requirements.txt`. Due to the limited deadline, specific versions for the third-party libraries were not provided. This can cause problems in the distant future.
+
+### Logging
+The logging file is located at /implementation/logs. There you can find your conversation history, including sent and received messages, as well as occured errors (if any).
